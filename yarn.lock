@@ -181,7 +181,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"canvas@npm:^2.9.1":
+"canvas@npm:2.9.1":
   version: 2.9.1
   resolution: "canvas@npm:2.9.1"
   dependencies:
@@ -809,8 +809,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "public-assets@workspace:."
   dependencies:
-    canvas: ^2.9.1
-    stackblur-canvas: ^2.5.0
+    canvas: 2.9.1
+    stackblur-canvas: 2.5.0
   languageName: unknown
   linkType: soft
 
@@ -946,7 +946,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stackblur-canvas@npm:^2.5.0":
+"stackblur-canvas@npm:2.5.0":
   version: 2.5.0
   resolution: "stackblur-canvas@npm:2.5.0"
   checksum: 52b0dc595d3dbed94c8563d8fe34e0c8ff65b85eaf8fcfe7b0cd8893e93ae42c28b688f71d792fbaedf2a9b677dc474a2e721d8245165a3a0c0d794c0f6f8bba
