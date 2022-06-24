@@ -181,15 +181,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"canvas@npm:2.9.1":
-  version: 2.9.1
-  resolution: "canvas@npm:2.9.1"
+"canvas@npm:2.9.3":
+  version: 2.9.3
+  resolution: "canvas@npm:2.9.3"
   dependencies:
     "@mapbox/node-pre-gyp": ^1.0.0
     nan: ^2.15.0
     node-gyp: latest
     simple-get: ^3.0.3
-  checksum: 0175067df9eaa591113605441c150ffe7d5196a3273559b0aadfe56854e8353ea99eb3c56c9347c76e54a4781c88dd24662268a0f86500e69b608d5b1e9e6801
+  checksum: 368112ba4b16f54ce6dfac1ccbc45ddd1eb0b76dc09509c2601c2a26459bb4449d259a7aa8664fd94153aad13b48557535f3b9eb7fad9a97929b9eb962e50f09
   languageName: node
   linkType: hard
 
@@ -809,7 +809,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "public-assets@workspace:."
   dependencies:
-    canvas: 2.9.1
+    canvas: 2.9.3
     stackblur-canvas: 2.5.0
   languageName: unknown
   linkType: soft
