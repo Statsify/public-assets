@@ -5,5 +5,8 @@
     "canvas": "2.10.2",
     "stackblur-canvas": "2.5.0"
   },
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "postinstall": "node ./blur.js"
+  }
 }
