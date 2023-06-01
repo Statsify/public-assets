@@ -1,6 +1,6 @@
 {
   "name": "public-assets",
-  "packageManager": "yarn@3.3.0",
+  "packageManager": "yarn@3.6.0",
   "dependencies": {
     "canvas": "2.10.2",
     "stackblur-canvas": "2.5.0"
