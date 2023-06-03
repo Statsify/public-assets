@@ -1,11 +1,12 @@
 {
   "name": "public-assets",
-  "dependencies": {
-    "canvas": "2.10.2",
-    "stackblur-canvas": "2.5.0"
-  },
   "type": "module",
   "scripts": {
     "postinstall": "node ./blur.js"
+  },
+  "packageManager": "pnpm@8.6.0",
+  "dependencies": {
+    "canvas": "2.10.2",
+    "stackblur-canvas": "2.5.0"
   }
 }
