@@ -1,8 +1,7 @@
 {
   "name": "public-assets",
-  "type": "module",
   "scripts": {
-    "postinstall": "node ./blur.js"
+    "postinstall": "node ./blur.mjs"
   },
   "packageManager": "pnpm@8.6.0",
   "dependencies": {
