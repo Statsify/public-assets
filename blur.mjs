@@ -6,11 +6,9 @@
  * https://github.com/Statsify/statsify/blob/main/LICENSE
  */
 
+import { Canvas, loadImage } from "skia-canvas";
 import { canvasRGBA } from "stackblur-canvas";
-import { createRequire } from "node:module";
 import { mkdir, readdir, rm, writeFile } from "node:fs/promises";
-const require = createRequire(import.meta.url);
-const { Canvas, loadImage } = require("canvas");
 
 await mkdir("./out", { recursive: true });
 await rm("./out/backgrounds", { force: true, recursive: true });
@@ -27,7 +25,7 @@ const renderBackgrounds = backgrounds.map(async (backgroundPath) => {
 
   canvasRGBA(canvas, 0, 0, canvas.width, canvas.height, 13);
 
-  await writeFile(`./out/backgrounds/${backgroundPath}`, canvas.toBuffer());
+  await writeFile(`./out/backgrounds/${backgroundPath}`, await canvas.toBuffer("png"));
 });
 
 await Promise.all(renderBackgrounds);
