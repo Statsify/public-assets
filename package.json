@@ -5,7 +5,7 @@
   },
   "packageManager": "pnpm@8.6.0",
   "dependencies": {
-    "skia-canvas": "^0.9.30",
+    "skia-canvas": "^1.0.0",
     "stackblur-canvas": "2.7.0"
   }
 }
