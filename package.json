@@ -3,7 +3,7 @@
   "scripts": {
     "postinstall": "node ./blur.mjs"
   },
-  "packageManager": "pnpm@12.10.1",
+  "packageManager": "pnpm@12.14.0",
   "dependencies": {
     "skia-canvas": "3.0.8",
     "stackblur-canvas": "2.7.0"
